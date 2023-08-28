@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Réinitialisation des marges et des rembourrages */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #007bff;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .jumbotron {
+    background-color: #333333;
+  }
+  
+  .dark-mode .card {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .dark-mode .list-group-item {
+    background-color: #444444;
+    border-color: #555555;
+    color: #ffffff;
+  }
+  
+  .dark-mode footer {
+    background-color: #222222;
+    color: #aaaaaa;
+  }
